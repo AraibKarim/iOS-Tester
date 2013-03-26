@@ -37,20 +37,20 @@
 		DA9FDC4E17012B0100E8BB43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA9FDC5017012B0100E8BB43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA9FDC5217012B0100E8BB43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DA9FDC5617012B0200E8BB43 /* TestingGitty-Info.plist */ = {isa = PBXFileReference; path = "TestingGitty-Info.plist"; sourceTree = "<group>"; };
+		DA9FDC5617012B0200E8BB43 /* TestingGitty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestingGitty-Info.plist"; sourceTree = "<group>"; };
 		DA9FDC5817012B0200E8BB43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA9FDC5A17012B0200E8BB43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA9FDC5C17012B0200E8BB43 /* TestingGitty-Prefix.pch */ = {isa = PBXFileReference; path = "TestingGitty-Prefix.pch"; sourceTree = "<group>"; };
-		DA9FDC5D17012B0200E8BB43 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA9FDC5C17012B0200E8BB43 /* TestingGitty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestingGitty-Prefix.pch"; sourceTree = "<group>"; };
+		DA9FDC5D17012B0200E8BB43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA9FDC5E17012B0200E8BB43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DA9FDC6117012B0200E8BB43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DA9FDC6317012B0200E8BB43 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DA9FDC6317012B0200E8BB43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DA9FDC6417012B0200E8BB43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA9FDC6B17012B0200E8BB43 /* TestingGittyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingGittyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9FDC6C17012B0200E8BB43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DA9FDC7417012B0200E8BB43 /* TestingGittyTests-Info.plist */ = {isa = PBXFileReference; path = "TestingGittyTests-Info.plist"; sourceTree = "<group>"; };
+		DA9FDC7417012B0200E8BB43 /* TestingGittyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestingGittyTests-Info.plist"; sourceTree = "<group>"; };
 		DA9FDC7617012B0200E8BB43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DA9FDC7817012B0200E8BB43 /* TestingGittyTests.h */ = {isa = PBXFileReference; path = TestingGittyTests.h; sourceTree = "<group>"; };
+		DA9FDC7817012B0200E8BB43 /* TestingGittyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestingGittyTests.h; sourceTree = "<group>"; };
 		DA9FDC7917012B0200E8BB43 /* TestingGittyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingGittyTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
