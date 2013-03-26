@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA9FDC4F17012B0100E8BB43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9FDC4E17012B0100E8BB43 /* UIKit.framework */; };
+		DA9FDC5117012B0100E8BB43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9FDC5017012B0100E8BB43 /* Foundation.framework */; };
+		DA9FDC5317012B0100E8BB43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9FDC5217012B0100E8BB43 /* CoreGraphics.framework */; };
+		DA9FDC5917012B0200E8BB43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA9FDC5717012B0200E8BB43 /* InfoPlist.strings */; };
+		DA9FDC5B17012B0200E8BB43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9FDC5A17012B0200E8BB43 /* main.m */; };
+		DA9FDC5F17012B0200E8BB43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9FDC5E17012B0200E8BB43 /* AppDelegate.m */; };
+		DA9FDC6217012B0200E8BB43 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9FDC6017012B0200E8BB43 /* MainStoryboard.storyboard */; };
+		DA9FDC6517012B0200E8BB43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9FDC6417012B0200E8BB43 /* ViewController.m */; };
+		DA9FDC6D17012B0200E8BB43 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9FDC6C17012B0200E8BB43 /* SenTestingKit.framework */; };
+		DA9FDC6E17012B0200E8BB43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9FDC4E17012B0100E8BB43 /* UIKit.framework */; };
+		DA9FDC6F17012B0200E8BB43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9FDC5017012B0100E8BB43 /* Foundation.framework */; };
+		DA9FDC7717012B0200E8BB43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA9FDC7517012B0200E8BB43 /* InfoPlist.strings */; };
+		DA9FDC7A17012B0200E8BB43 /* TestingGittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9FDC7917012B0200E8BB43 /* TestingGittyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA9FDC7017012B0200E8BB43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9FDC4117012B0100E8BB43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9FDC4917012B0100E8BB43;
+			remoteInfo = TestingGitty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA9FDC4A17012B0100E8BB43 /* TestingGitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingGitty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9FDC4E17012B0100E8BB43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA9FDC5017012B0100E8BB43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA9FDC5217012B0100E8BB43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA9FDC5617012B0200E8BB43 /* TestingGitty-Info.plist */ = {isa = PBXFileReference; path = "TestingGitty-Info.plist"; sourceTree = "<group>"; };
+		DA9FDC5817012B0200E8BB43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA9FDC5A17012B0200E8BB43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA9FDC5C17012B0200E8BB43 /* TestingGitty-Prefix.pch */ = {isa = PBXFileReference; path = "TestingGitty-Prefix.pch"; sourceTree = "<group>"; };
+		DA9FDC5D17012B0200E8BB43 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA9FDC5E17012B0200E8BB43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA9FDC6117012B0200E8BB43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DA9FDC6317012B0200E8BB43 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DA9FDC6417012B0200E8BB43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA9FDC6B17012B0200E8BB43 /* TestingGittyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingGittyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9FDC6C17012B0200E8BB43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DA9FDC7417012B0200E8BB43 /* TestingGittyTests-Info.plist */ = {isa = PBXFileReference; path = "TestingGittyTests-Info.plist"; sourceTree = "<group>"; };
+		DA9FDC7617012B0200E8BB43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA9FDC7817012B0200E8BB43 /* TestingGittyTests.h */ = {isa = PBXFileReference; path = TestingGittyTests.h; sourceTree = "<group>"; };
+		DA9FDC7917012B0200E8BB43 /* TestingGittyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingGittyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA9FDC4717012B0100E8BB43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9FDC4F17012B0100E8BB43 /* UIKit.framework in Frameworks */,
+				DA9FDC5117012B0100E8BB43 /* Foundation.framework in Frameworks */,
+				DA9FDC5317012B0100E8BB43 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9FDC6717012B0200E8BB43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9FDC6D17012B0200E8BB43 /* SenTestingKit.framework in Frameworks */,
+				DA9FDC6E17012B0200E8BB43 /* UIKit.framework in Frameworks */,
+				DA9FDC6F17012B0200E8BB43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA9FDC3F17012B0100E8BB43 = {
+			isa = PBXGroup;
+			children = (
+				DA9FDC5417012B0100E8BB43 /* TestingGitty */,
+				DA9FDC7217012B0200E8BB43 /* TestingGittyTests */,
+				DA9FDC4D17012B0100E8BB43 /* Frameworks */,
+				DA9FDC4B17012B0100E8BB43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA9FDC4B17012B0100E8BB43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA9FDC4A17012B0100E8BB43 /* TestingGitty.app */,
+				DA9FDC6B17012B0200E8BB43 /* TestingGittyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA9FDC4D17012B0100E8BB43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9FDC4E17012B0100E8BB43 /* UIKit.framework */,
+				DA9FDC5017012B0100E8BB43 /* Foundation.framework */,
+				DA9FDC5217012B0100E8BB43 /* CoreGraphics.framework */,
+				DA9FDC6C17012B0200E8BB43 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA9FDC5417012B0100E8BB43 /* TestingGitty */ = {
+			isa = PBXGroup;
+			children = (
+				DA9FDC5D17012B0200E8BB43 /* AppDelegate.h */,
+				DA9FDC5E17012B0200E8BB43 /* AppDelegate.m */,
+				DA9FDC6017012B0200E8BB43 /* MainStoryboard.storyboard */,
+				DA9FDC6317012B0200E8BB43 /* ViewController.h */,
+				DA9FDC6417012B0200E8BB43 /* ViewController.m */,
+				DA9FDC5517012B0200E8BB43 /* Supporting Files */,
+			);
+			path = TestingGitty;
+			sourceTree = "<group>";
+		};
+		DA9FDC5517012B0200E8BB43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA9FDC5617012B0200E8BB43 /* TestingGitty-Info.plist */,
+				DA9FDC5717012B0200E8BB43 /* InfoPlist.strings */,
+				DA9FDC5A17012B0200E8BB43 /* main.m */,
+				DA9FDC5C17012B0200E8BB43 /* TestingGitty-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA9FDC7217012B0200E8BB43 /* TestingGittyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9FDC7817012B0200E8BB43 /* TestingGittyTests.h */,
+				DA9FDC7917012B0200E8BB43 /* TestingGittyTests.m */,
+				DA9FDC7317012B0200E8BB43 /* Supporting Files */,
+			);
+			path = TestingGittyTests;
+			sourceTree = "<group>";
+		};
+		DA9FDC7317012B0200E8BB43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA9FDC7417012B0200E8BB43 /* TestingGittyTests-Info.plist */,
+				DA9FDC7517012B0200E8BB43 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA9FDC4917012B0100E8BB43 /* TestingGitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9FDC7D17012B0200E8BB43 /* Build configuration list for PBXNativeTarget "TestingGitty" */;
+			buildPhases = (
+				DA9FDC4617012B0100E8BB43 /* Sources */,
+				DA9FDC4717012B0100E8BB43 /* Frameworks */,
+				DA9FDC4817012B0100E8BB43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestingGitty;
+			productName = TestingGitty;
+			productReference = DA9FDC4A17012B0100E8BB43 /* TestingGitty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA9FDC6A17012B0200E8BB43 /* TestingGittyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9FDC8017012B0200E8BB43 /* Build configuration list for PBXNativeTarget "TestingGittyTests" */;
+			buildPhases = (
+				DA9FDC6617012B0200E8BB43 /* Sources */,
+				DA9FDC6717012B0200E8BB43 /* Frameworks */,
+				DA9FDC6817012B0200E8BB43 /* Resources */,
+				DA9FDC6917012B0200E8BB43 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9FDC7117012B0200E8BB43 /* PBXTargetDependency */,
+			);
+			name = TestingGittyTests;
+			productName = TestingGittyTests;
+			productReference = DA9FDC6B17012B0200E8BB43 /* TestingGittyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA9FDC4117012B0100E8BB43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DA9FDC4417012B0100E8BB43 /* Build configuration list for PBXProject "TestingGitty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA9FDC3F17012B0100E8BB43;
+			productRefGroup = DA9FDC4B17012B0100E8BB43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9FDC4917012B0100E8BB43 /* TestingGitty */,
+				DA9FDC6A17012B0200E8BB43 /* TestingGittyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA9FDC4817012B0100E8BB43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9FDC5917012B0200E8BB43 /* InfoPlist.strings in Resources */,
+				DA9FDC6217012B0200E8BB43 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9FDC6817012B0200E8BB43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9FDC7717012B0200E8BB43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA9FDC6917012B0200E8BB43 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA9FDC4617012B0100E8BB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9FDC5B17012B0200E8BB43 /* main.m in Sources */,
+				DA9FDC5F17012B0200E8BB43 /* AppDelegate.m in Sources */,
+				DA9FDC6517012B0200E8BB43 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9FDC6617012B0200E8BB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9FDC7A17012B0200E8BB43 /* TestingGittyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA9FDC7117012B0200E8BB43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9FDC4917012B0100E8BB43 /* TestingGitty */;
+			targetProxy = DA9FDC7017012B0200E8BB43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA9FDC5717012B0200E8BB43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA9FDC5817012B0200E8BB43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA9FDC6017012B0200E8BB43 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA9FDC6117012B0200E8BB43 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DA9FDC7517012B0200E8BB43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA9FDC7617012B0200E8BB43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA9FDC7B17012B0200E8BB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA9FDC7C17012B0200E8BB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA9FDC7E17012B0200E8BB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestingGitty/TestingGitty-Prefix.pch";
+				INFOPLIST_FILE = "TestingGitty/TestingGitty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA9FDC7F17012B0200E8BB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestingGitty/TestingGitty-Prefix.pch";
+				INFOPLIST_FILE = "TestingGitty/TestingGitty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DA9FDC8117012B0200E8BB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestingGitty.app/TestingGitty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestingGitty/TestingGitty-Prefix.pch";
+				INFOPLIST_FILE = "TestingGittyTests/TestingGittyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DA9FDC8217012B0200E8BB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestingGitty.app/TestingGitty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestingGitty/TestingGitty-Prefix.pch";
+				INFOPLIST_FILE = "TestingGittyTests/TestingGittyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA9FDC4417012B0100E8BB43 /* Build configuration list for PBXProject "TestingGitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9FDC7B17012B0200E8BB43 /* Debug */,
+				DA9FDC7C17012B0200E8BB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9FDC7D17012B0200E8BB43 /* Build configuration list for PBXNativeTarget "TestingGitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9FDC7E17012B0200E8BB43 /* Debug */,
+				DA9FDC7F17012B0200E8BB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA9FDC8017012B0200E8BB43 /* Build configuration list for PBXNativeTarget "TestingGittyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9FDC8117012B0200E8BB43 /* Debug */,
+				DA9FDC8217012B0200E8BB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA9FDC4117012B0100E8BB43 /* Project object */;
+}
